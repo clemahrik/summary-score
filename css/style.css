@@ -1,0 +1,635 @@
+    body {
+        background-color: black;
+    }
+    
+    @media only screen and (max-width: 900px) {
+        /* FOR Tablet */
+        .container101 {
+            width: 750px;
+            font-family: monospace;
+            background-color: #ffffff;
+            padding-top: 400px;
+            margin-top: 100px;
+            border-radius: 30px;
+        }
+        .container {
+            width: 370px;
+            height: 400px;
+            text-align: center;
+            background-color: rgb(75, 75, 243);
+            border-radius: 30px;
+            position: absolute;
+            bottom: 34vh;
+        }
+        .container1 {
+            font-size: 16px;
+            color: rgb(207, 210, 221);
+            position: absolute;
+            top: 40px;
+            left: 140px;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .percent {
+            background-color: rgb(33, 19, 218);
+            border-radius: 80%;
+            width: 140px;
+            height: 140px;
+            position: absolute;
+            top: 100px;
+            left: 115px;
+        }
+        .number {
+            position: absolute;
+            top: 110px;
+            left: 148px;
+            font-size: 60px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            color: rgb(255, 252, 252);
+            font-weight: 700;
+        }
+        .of {
+            position: absolute;
+            top: 190px;
+            left: 162px;
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            color: rgb(182, 170, 170);
+            font-weight: 600;
+        }
+        .great {
+            position: absolute;
+            top: 270px;
+            left: 155px;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 23px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .score {
+            font-weight: 1000;
+            position: absolute;
+            top: 320px;
+            left: 65px;
+            font-size: 15px;
+            font-weight: 500;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(236, 227, 227);
+        }
+        .summary {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 30px;
+            font-size: 17px;
+            color: rgb(44, 46, 48);
+            font-weight: bolder;
+            position: absolute;
+            top: 130px;
+            left: 375px;
+        }
+        .reaction {
+            color: rgb(235, 72, 126);
+            margin-top: 20px;
+            margin-left: 35px;
+            font-size: 18px;
+            font-weight: bold;
+            position: absolute;
+            top: 163px;
+            left: 380px;
+        }
+        .memory {
+            margin-top: 20px;
+            margin-left: 37px;
+            font-size: 18px;
+            color: rgb(218, 170, 14);
+            font-weight: bold;
+            position: absolute;
+            top: 223px;
+            left: 380px;
+        }
+        .verbal {
+            margin-top: 20px;
+            margin-left: 37px;
+            font-size: 18px;
+            color: rgb(20, 202, 147);
+            font-weight: bold;
+            position: absolute;
+            top: 283px;
+            left: 380px;
+        }
+        .visual {
+            margin-top: 20px;
+            margin-left: 37px;
+            font-size: 18px;
+            color: rgb(54, 40, 173);
+            font-weight: bold;
+            position: absolute;
+            top: 343px;
+            left: 380px;
+        }
+        .continue {
+            margin-top: 35px;
+            margin-left: 10px;
+            font-size: 21px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            position: absolute;
+            top: 403px;
+            left: 500px;
+        }
+        .botton {
+            background-color: rgb(247, 237, 237);
+            border-radius: 10px;
+            width: 330px;
+            height: 52px;
+            position: absolute;
+            top: 170px;
+            left: 400px;
+        }
+        .botton1 {
+            background-color: rgb(235, 229, 179);
+            border-radius: 10px;
+            width: 330px;
+            height: 52px;
+            position: absolute;
+            top: 230px;
+            left: 400px;
+        }
+        .botton2 {
+            background-color: rgb(206, 223, 214);
+            border-radius: 10px;
+            width: 330px;
+            height: 52px;
+            position: absolute;
+            top: 290px;
+            left: 400px;
+        }
+        .botton3 {
+            background-color: rgb(211, 211, 228);
+            border-radius: 10px;
+            width: 330px;
+            height: 52px;
+            position: absolute;
+            top: 350px;
+            left: 400px;
+        }
+        .botton4 {
+            background-color: rgb(11, 43, 73);
+            border-radius: 50px;
+            width: 330px;
+            height: 62px;
+            position: absolute;
+            top: 420px;
+            left: 400px;
+        }
+        .code {
+            font-size: 17px;
+            color: rgb(20, 19, 19);
+            position: absolute;
+            top: 185px;
+            left: 650px;
+        }
+        .code1 {
+            font-size: 17px;
+            color: rgb(14, 13, 12);
+            position: absolute;
+            top: 245px;
+            left: 650px;
+        }
+        .code2 {
+            font-size: 17px;
+            color: rgb(13, 14, 13);
+            position: absolute;
+            top: 305px;
+            left: 650px;
+        }
+        .code3 {
+            font-size: 17px;
+            color: rgb(0, 0, 0);
+            position: absolute;
+            top: 365px;
+            left: 650px;
+        }
+    }
+    
+    @media screen and (min-width: 900px) {
+        /* FOR Desktop */
+        .container101 {
+            width: 750px;
+            font-family: monospace;
+            background-color: #ffffff;
+            padding-top: 400px;
+            margin-top: 100px;
+            border-radius: 30px;
+        }
+        .container {
+            width: 370px;
+            height: 400px;
+            text-align: center;
+            background-color: rgb(75, 75, 243);
+            border-radius: 30px;
+            position: absolute;
+            bottom: 256px;
+        }
+        .container1 {
+            font-size: 16px;
+            color: rgb(207, 210, 221);
+            position: absolute;
+            top: 40px;
+            left: 140px;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .percent {
+            background-color: rgb(33, 19, 218);
+            border-radius: 80%;
+            width: 140px;
+            height: 140px;
+            position: absolute;
+            top: 100px;
+            left: 115px;
+        }
+        .number {
+            position: absolute;
+            top: 110px;
+            left: 148px;
+            font-size: 60px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            color: rgb(255, 252, 252);
+            font-weight: 700;
+        }
+        .of {
+            position: absolute;
+            top: 190px;
+            left: 162px;
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            color: rgb(182, 170, 170);
+            font-weight: 600;
+        }
+        .great {
+            position: absolute;
+            top: 270px;
+            left: 155px;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 23px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .score {
+            font-weight: 1000;
+            position: absolute;
+            top: 320px;
+            left: 65px;
+            font-size: 15px;
+            font-weight: 500;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(236, 227, 227);
+        }
+        .summary {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 30px;
+            font-size: 17px;
+            color: rgb(44, 46, 48);
+            font-weight: bolder;
+            position: absolute;
+            top: 130px;
+            left: 375px;
+        }
+        .reaction {
+            color: rgb(235, 72, 126);
+            margin-top: 20px;
+            margin-left: 35px;
+            font-size: 18px;
+            font-weight: bold;
+            position: absolute;
+            top: 163px;
+            left: 380px;
+        }
+        .memory {
+            margin-top: 20px;
+            margin-left: 37px;
+            font-size: 18px;
+            color: rgb(218, 170, 14);
+            font-weight: bold;
+            position: absolute;
+            top: 223px;
+            left: 380px;
+        }
+        .verbal {
+            margin-top: 20px;
+            margin-left: 37px;
+            font-size: 18px;
+            color: rgb(20, 202, 147);
+            font-weight: bold;
+            position: absolute;
+            top: 283px;
+            left: 380px;
+        }
+        .visual {
+            margin-top: 20px;
+            margin-left: 37px;
+            font-size: 18px;
+            color: rgb(54, 40, 173);
+            font-weight: bold;
+            position: absolute;
+            top: 343px;
+            left: 380px;
+        }
+        .continue {
+            margin-top: 35px;
+            margin-left: 10px;
+            font-size: 21px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            position: absolute;
+            top: 403px;
+            left: 500px;
+        }
+        .botton {
+            background-color: rgb(247, 237, 237);
+            border-radius: 10px;
+            width: 330px;
+            height: 52px;
+            position: absolute;
+            top: 170px;
+            left: 400px;
+        }
+        .botton1 {
+            background-color: rgb(235, 229, 179);
+            border-radius: 10px;
+            width: 330px;
+            height: 52px;
+            position: absolute;
+            top: 230px;
+            left: 400px;
+        }
+        .botton2 {
+            background-color: rgb(206, 223, 214);
+            border-radius: 10px;
+            width: 330px;
+            height: 52px;
+            position: absolute;
+            top: 290px;
+            left: 400px;
+        }
+        .botton3 {
+            background-color: rgb(211, 211, 228);
+            border-radius: 10px;
+            width: 330px;
+            height: 52px;
+            position: absolute;
+            top: 350px;
+            left: 400px;
+        }
+        .botton4 {
+            background-color: rgb(11, 43, 73);
+            border-radius: 50px;
+            width: 330px;
+            height: 62px;
+            position: absolute;
+            top: 420px;
+            left: 400px;
+        }
+        .code {
+            font-size: 17px;
+            color: rgb(20, 19, 19);
+            position: absolute;
+            top: 185px;
+            left: 650px;
+        }
+        .code1 {
+            font-size: 17px;
+            color: rgb(14, 13, 12);
+            position: absolute;
+            top: 245px;
+            left: 650px;
+        }
+        .code2 {
+            font-size: 17px;
+            color: rgb(13, 14, 13);
+            position: absolute;
+            top: 305px;
+            left: 650px;
+        }
+        .code3 {
+            font-size: 17px;
+            color: rgb(0, 0, 0);
+            position: absolute;
+            top: 365px;
+            left: 650px;
+        }
+    }
+    
+    @media screen and (max-width: 761px) {
+        /* FOR Mobile-phone */
+        .container101 {
+            width: 370px;
+            height: 270px;
+            font-family: monospace;
+            background-color: #ffffff;
+            padding-top: 360px;
+        }
+        .container {
+            width: 370px;
+            height: 400px;
+            text-align: center;
+            background-color: rgb(75, 75, 243);
+            border-radius: 30px;
+            position: absolute;
+            bottom: 430px;
+        }
+        .container1 {
+            font-size: 16px;
+            color: rgb(207, 210, 221);
+            position: absolute;
+            top: 90px;
+            left: 140px;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .percent {
+            background-color: rgb(33, 19, 218);
+            border-radius: 80%;
+            width: 140px;
+            height: 140px;
+            position: absolute;
+            top: 130px;
+            left: 115px;
+        }
+        .number {
+            position: absolute;
+            top: 150px;
+            left: 148px;
+            font-size: 60px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            color: rgb(255, 252, 252);
+            font-weight: 700;
+        }
+        .of {
+            position: absolute;
+            top: 230px;
+            left: 162px;
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            color: rgb(182, 170, 170);
+            font-weight: 600;
+        }
+        .great {
+            position: absolute;
+            top: 290px;
+            left: 155px;
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 23px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .score {
+            font-weight: 1000;
+            position: absolute;
+            top: 325px;
+            left: 65px;
+            font-size: 15px;
+            font-weight: 500;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(236, 227, 227);
+        }
+        .summary {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 30px;
+            font-size: 17px;
+            color: rgb(44, 46, 48);
+            font-weight: bolder;
+            position: absolute;
+            top: 345px;
+            left: 10px;
+        }
+        .reaction {
+            color: rgb(235, 72, 126);
+            margin-top: 20px;
+            margin-left: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            position: absolute;
+            top: 382px;
+            left: 20px;
+        }
+        .memory {
+            margin-top: 20px;
+            margin-left: 25px;
+            font-size: 18px;
+            color: rgb(218, 170, 14);
+            font-weight: bold;
+            position: absolute;
+            top: 442px;
+            left: 20px;
+        }
+        .verbal {
+            margin-top: 20px;
+            margin-left: 25px;
+            font-size: 18px;
+            color: rgb(20, 202, 147);
+            font-weight: bold;
+            position: absolute;
+            top: 504px;
+            left: 20px;
+        }
+        .visual {
+            margin-top: 20px;
+            margin-left: 25px;
+            font-size: 18px;
+            color: rgb(54, 40, 173);
+            font-weight: bold;
+            position: absolute;
+            top: 562px;
+            left: 20px;
+        }
+        .continue {
+            margin-top: 35px;
+            margin-left: 10px;
+            font-size: 21px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            position: absolute;
+            top: 622px;
+            left: 130px;
+        }
+        .botton {
+            background-color: rgb(247, 237, 237);
+            border-radius: 10px;
+            width: 330px;
+            height: 52px;
+            position: absolute;
+            top: 390px;
+            left: 27px;
+        }
+        .botton1 {
+            background-color: rgb(235, 229, 179);
+            border-radius: 10px;
+            width: 330px;
+            height: 52px;
+            position: absolute;
+            top: 450px;
+            left: 27px;
+        }
+        .botton2 {
+            background-color: rgb(206, 223, 214);
+            border-radius: 10px;
+            width: 330px;
+            height: 52px;
+            position: absolute;
+            top: 510px;
+            left: 27px;
+        }
+        .botton3 {
+            background-color: rgb(211, 211, 228);
+            border-radius: 10px;
+            width: 330px;
+            height: 52px;
+            position: absolute;
+            top: 570px;
+            left: 27px;
+        }
+        .botton4 {
+            background-color: rgb(11, 43, 73);
+            border-radius: 50px;
+            width: 330px;
+            height: 62px;
+            position: absolute;
+            top: 640px;
+            left: 27px;
+        }
+        .code {
+            font-size: 17px;
+            color: rgb(20, 19, 19);
+            position: absolute;
+            top: 402px;
+            left: 274px;
+        }
+        .code1 {
+            font-size: 17px;
+            color: rgb(14, 13, 12);
+            position: absolute;
+            top: 463px;
+            left: 274px;
+        }
+        .code2 {
+            font-size: 17px;
+            color: rgb(13, 14, 13);
+            position: absolute;
+            top: 524px;
+            left: 274px;
+        }
+        .code3 {
+            font-size: 17px;
+            color: rgb(0, 0, 0);
+            position: absolute;
+            top: 585px;
+            left: 274px;
+        }
+    }
